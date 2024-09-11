@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class UserResponseDto {
     private Long id;
-    private String name;
-    private String email;
-    private String password;
-    private String cpf_cnpj;
-    private Boolean is_active;
+    private String nome;
+    private Long qtde;
+    private Double preco;
 }
